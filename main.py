@@ -1,7 +1,7 @@
-
+from dotenv import load_dotenv
 import telebot
 
-BOT_TOKEN = '7443749992:AAH6sQyuaScYpLDM-6l6003tR7JKXUMpNyk'
+BOT_TOKEN = os.getenv("BOT_TOKEN")
 SOURCE_CHAT_ID = -1002517855705
 DESTINATION_CHAT_ID = -1002392649193
 
